@@ -18,6 +18,7 @@ import {
     mode,
     fraxtal,
     sonic,
+    moksha,
 } from 'viem/chains';
 import { monadTestnet } from './customChains';
 export const ZERO_ADDRESS: Address =
