@@ -78,6 +78,7 @@ export enum ChainId {
     AVALANCHE = 43114,
     BASE_GOERLI = 84531,
     SEPOLIA = 11155111,
+    MOKSHA = 14800,
     MONAD_TESTNET = 10143,
 }
 
@@ -96,6 +97,7 @@ export const API_CHAIN_NAMES: Record<number, string> = {
     [ChainId.AVALANCHE]: 'AVALANCHE',
     [ChainId.SEPOLIA]: 'SEPOLIA',
     [ChainId.SONIC]: 'SONIC',
+    [ChainId.MOKSHA]: 'MOKSHA',
     [ChainId.MONAD_TESTNET]: 'MONAD_TESTNET',
 };
 
@@ -117,6 +119,7 @@ export const CHAINS: Record<number, Chain> = {
     [ChainId.BASE_GOERLI]: baseGoerli,
     [ChainId.SEPOLIA]: sepolia,
     [ChainId.SONIC]: sonic,
+    [ChainId.MOKSHA]: moksha,
     [ChainId.MONAD_TESTNET]: monadTestnet,
 };
 
@@ -130,6 +133,7 @@ export const PERMIT2: Record<number, Address> = {
     [ChainId.MONAD_TESTNET]: '0x000000000022D473030F116dDEE9F6B43aC78BA3',
     [ChainId.AVALANCHE]: '0x000000000022d473030f116ddee9f6b43ac78ba3',
     [ChainId.OPTIMISM]: '0x000000000022D473030F116dDEE9F6B43aC78BA3',
+    [ChainId.MOKSHA]: '0x000000000022D473030F116dDEE9F6B43aC78BA3',
 };
 
 export const NATIVE_ASSETS = {
@@ -244,6 +248,14 @@ export const NATIVE_ASSETS = {
         'S',
         'Sonic',
         '0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38',
+    ),
+    [ChainId.MOKSHA]: new Token(
+        ChainId.MOKSHA,
+        NATIVE_ADDRESS,
+        18,
+        'VANA',
+        'VANA',
+        '0x00EDdD9621Fb08436d0331c149D1690909a5906d',
     ),
 };
 

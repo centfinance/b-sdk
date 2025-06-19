@@ -17,6 +17,7 @@ export const BALANCER_RELAYER: Record<number, Address> = {
     [ChainId.SEPOLIA]: '0x7852fB9d0895e6e8b3EedA553c03F6e2F9124dF9',
     [ChainId.ZKEVM]: '0x8e620FfCa2580ed87241D7e10F85EE75d0a906F5',
     [ChainId.SONIC]: '0xb5F8f253d0A6D4A18014cecA4253A2cEC6C98763',
+    [ChainId.MOKSHA]: '0xb5F8f253d0A6D4A18014cecA4253A2cEC6C98763',
 };
 
 export const VAULT_V2: Record<number, Address> = {
@@ -33,6 +34,7 @@ export const VAULT_V2: Record<number, Address> = {
     [ChainId.ZKEVM]: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
     [ChainId.SEPOLIA]: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
     [ChainId.SONIC]: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
+    [ChainId.MOKSHA]: '0xb5F8f253d0A6D4A18014cecA4253A2cEC6C98763',
 };
 
 export const BALANCER_QUERIES: Record<number, Address> = {
@@ -49,6 +51,7 @@ export const BALANCER_QUERIES: Record<number, Address> = {
     [ChainId.ZKEVM]: '0x809b79b53f18e9bc08a961ed4678b901ac93213a',
     [ChainId.SEPOLIA]: '0x1802953277FD955f9a254B80Aa0582f193cF1d77',
     [ChainId.SONIC]: '0x4B29DB997Ec0efDFEF13bAeE2a2D7783bCf67f17',
+    [ChainId.MOKSHA]: '0xb5F8f253d0A6D4A18014cecA4253A2cEC6C98763',
 };
 
 export const WEIGHTED_POOL_FACTORY_BALANCER_V2: Record<number, Address> = {
@@ -63,6 +66,7 @@ export const WEIGHTED_POOL_FACTORY_BALANCER_V2: Record<number, Address> = {
     [ChainId.POLYGON]: '0xfc8a407bba312ac761d8bfe04ce1201904842b76',
     [ChainId.ZKEVM]: '0x03f3fb107e74f2eac9358862e91ad3c692712054',
     [ChainId.SONIC]: '0x22f5b7FDD99076f1f20f8118854ce3984544D56d',
+    [ChainId.MOKSHA]: '0xb5F8f253d0A6D4A18014cecA4253A2cEC6C98763',
 };
 
 export const COMPOSABLE_STABLE_POOL_FACTORY: Record<number, Address> = {
@@ -78,6 +82,7 @@ export const COMPOSABLE_STABLE_POOL_FACTORY: Record<number, Address> = {
     [ChainId.SEPOLIA]: '0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B',
     [ChainId.ZKEVM]: '0xf23b4DB826DbA14c0e857029dfF076b1c0264843',
     [ChainId.SONIC]: '0x993767E29726dDb7F5e8A751fAF54d4b83F3FC62',
+    [ChainId.MOKSHA]: '0xb5F8f253d0A6D4A18014cecA4253A2cEC6C98763',
 };
 
 // V2
