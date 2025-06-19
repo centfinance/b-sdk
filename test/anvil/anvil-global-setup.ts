@@ -25,6 +25,7 @@ type NetworksWithFork = Extract<
     | 'ARBITRUM_ONE'
     | 'GNOSIS_CHAIN'
     | 'SONIC'
+    | 'MOKSHA'
 >;
 
 const ANVIL_PORTS: Record<NetworksWithFork, number> = {
@@ -40,6 +41,7 @@ const ANVIL_PORTS: Record<NetworksWithFork, number> = {
     ARBITRUM_ONE: 9445,
     GNOSIS_CHAIN: 9545,
     SONIC: 9645,
+    MOKSHA: 9745,
 };
 
 export const ANVIL_NETWORKS: Record<NetworksWithFork, NetworkSetup> = {
@@ -109,6 +111,12 @@ export const ANVIL_NETWORKS: Record<NetworksWithFork, NetworkSetup> = {
         fallBackRpc: 'https://sonic.drpc.org',
         port: ANVIL_PORTS.SONIC,
         forkBlockNumber: 7728765n,
+    },
+    MOKSHA: {
+        rpcEnv: 'MOKSHA_RPC_URL',
+        fallBackRpc: 'https://rpc.moksha.vana.org',
+        port: ANVIL_PORTS.MOKSHA,
+        forkBlockNumber: 3192880n,
     },
 };
 

@@ -134,6 +134,8 @@ export class SorSwapPaths {
                 return 'BASE';
             case ChainId.SONIC:
                 return 'SONIC';
+            case ChainId.MOKSHA:
+                return 'MOKSHA';
             default:
                 throw Error(`Unsupported API chain: ${chainId}`);
         }
